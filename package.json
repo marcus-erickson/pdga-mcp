@@ -1,0 +1,19 @@
+{
+  "name": "pdga-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for the PDGA REST API (players, ratings, stats, events, courses)",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "pdga-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "private": true
+}
